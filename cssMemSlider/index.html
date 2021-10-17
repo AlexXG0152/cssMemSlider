@@ -5,8 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cssMemSlider</title>
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+    <article id="slider">
+        <input type="radio" name="slider" id="slide1" checked/>
+        <input type="radio" name="slider" id="slide2"/>
+        <input type="radio" name="slider" id="slide3"/>
+        <input type="radio" name="slider" id="slide4"/>
+        <input type="radio" name="slider" id="slide5"/>
+        <div id="slides">
+            <div id="container">
+                <div class="inner">
+                    <article>
+                        <img src="https://github.com/AlexXG0152/cssMemSlider/blob/gh-pages/cssMemSlider/assets/1.jpg"/>
+                    </article>
+                    <article>
+                        <img src="https://github.com/AlexXG0152/cssMemSlider/blob/gh-pages/cssMemSlider/assets/2.jpg"/>
+                    </article>
+                    <article>
+                        <img src="https://github.com/AlexXG0152/cssMemSlider/blob/gh-pages/cssMemSlider/assets/3.jpg"/>
+                    </article>
+                    <article>
+                        <img src="https://github.com/AlexXG0152/cssMemSlider/blob/gh-pages/cssMemSlider/assets/4.jpg"/>
+                    </article>
+                    <article>
+                        <img src="https://github.com/AlexXG0152/cssMemSlider/blob/gh-pages/cssMemSlider/assets/5.jpg"/>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-container-element" id="slides">
+            <div class="grid-child-element text" id="container">
+                <div class="inner">
+                    <article><div><p id="meme-text">one</p></div></article>
+                    <article><div><p id="meme-text">two</p></div></article>
+                    <article><div><p id="meme-text">three</p></div></article>
+                    <article><div><p id="meme-text">four</p></div></article>
+                    <article><div><p id="meme-text">five</p></div></article>
+                </div>
+            </div>
+            <div class="grid-child-element bullets" id="bullets">
+                <div id="bullets">                    
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
+                    <label for="slide3"></label>
+                    <label for="slide4"></label>
+                    <label for="slide5"></label>
+                </div>
+            </div>
+        </div>
+    </article>
     
 </body>
 </html>
